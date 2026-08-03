@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "arrival_day": 5,
+      "atomic_facts": {
+        "flying": true,
+        "hotel_on_arrival": false,
+        "within_budget": true
+      },
+      "budget": 800,
+      "cost": 750,
+      "expected": false,
+      "flying": true,
+      "formal_verdict": "BLOCK",
+      "hotel_start": 4,
+      "id": "source_style_conditional_violation",
+      "violations": [
+        "flight_implies_hotel_on_arrival"
+      ]
+    },
+    {
+      "arrival_day": 5,
+      "atomic_facts": {
+        "flying": true,
+        "hotel_on_arrival": true,
+        "within_budget": true
+      },
+      "budget": 800,
+      "cost": 750,
+      "expected": true,
+      "flying": true,
+      "formal_verdict": "PASS",
+      "hotel_start": 5,
+      "id": "compliant_flight",
+      "violations": []
+    },
+    {
+      "arrival_day": 5,
+      "atomic_facts": {
+        "flying": false,
+        "hotel_on_arrival": false,
+        "within_budget": false
+      },
+      "budget": 800,
+      "cost": 900,
+      "expected": false,
+      "flying": false,
+      "formal_verdict": "BLOCK",
+      "hotel_start": 4,
+      "id": "budget_control",
+      "violations": [
+        "budget"
+      ]
+    }
+  ],
+  "method": "finite propositional composition of source-style atomic facts"
+}

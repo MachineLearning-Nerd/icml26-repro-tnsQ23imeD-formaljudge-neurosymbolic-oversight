@@ -1,0 +1,7 @@
+{
+  "accuracy_against_constructed_labels": 1.0,
+  "n_cases": 3,
+  "scope": "Deterministic finite logical-composition toy preserving the source conditional trip constraint; no LLM semantic extraction, Dafny/Z3, Claude judge, or benchmark accuracy.",
+  "source_case_detected": true,
+  "verdict": "toy"
+}

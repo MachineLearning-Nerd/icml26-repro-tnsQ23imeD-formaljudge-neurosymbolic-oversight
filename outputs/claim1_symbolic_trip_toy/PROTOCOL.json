@@ -1,0 +1,9 @@
+{
+  "compute": "local CPU",
+  "controls": [
+    "compliant flight",
+    "budget violation"
+  ],
+  "metric": "exact agreement with three constructed propositional labels",
+  "source_locations": "example_paper.tex lines 349-355 (trip conditional); 364-390 (atomic facts/composition)"
+}

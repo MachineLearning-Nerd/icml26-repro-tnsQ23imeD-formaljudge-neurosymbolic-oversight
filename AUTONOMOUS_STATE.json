@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "openreview_id": "tnsQ23imeD",
-  "phase": "claim_1_source_cpu_feasibility_audit_complete_inconclusive",
-  "next_action": "seek source-faithful local symbolic metric toy; literal Claude-4.5-Opus benchmark is unavailable/nonlocal",
+  "phase": "claim_1_attempt_2_symbolic_formal_composition_toy_complete",
+  "next_action": "independent_review_claim_1_symbolic_toy_against_literal_benchmark",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
@@ -12,18 +12,20 @@
   ],
   "failed_attempts": [],
   "claim_attempt_counts": {
-    "1": 1
+    "1": 2
   },
-  "last_checkpoint": "2026-08-03T18:32:02.106910+00:00",
-  "last_known_git_commit": null,
+  "last_checkpoint": "2026-08-03T20:40:00Z",
+  "last_known_git_commit": "pending",
   "publication_allowed": false,
   "compute_policy": "local CPU/local GTX 1050 only; no HF cpu-upgrade, Jobs, paid, or remote compute",
   "claim_1_outcome": {
-    "verdict": "inconclusive",
-    "scope": "Literal claim requires Claude-4.5-Opus judge and benchmark evaluations; unavailable under local-only policy. No benchmark result was fabricated.",
+    "verdict": "toy",
+    "scope": "Finite local propositional composition of the paper trip-booking atomic facts and conditional constraint; not Claude, Dafny/Z3, semantic extraction, or benchmark evaluation.",
     "evidence": [
-      "outputs/claim1_source_audit/summary.json",
-      "evidence/source/SHA256SUMS"
+      "outputs/claim1_symbolic_trip_toy/PROTOCOL.json",
+      "outputs/claim1_symbolic_trip_toy/raw.json",
+      "outputs/claim1_symbolic_trip_toy/summary.json",
+      "outputs/claim1_symbolic_trip_toy/SHA256SUMS"
     ]
   }
 }
