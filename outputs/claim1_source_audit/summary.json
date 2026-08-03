@@ -1,0 +1,5 @@
+{
+  "verdict": "inconclusive",
+  "reason": "literal Claude-4.5-Opus benchmark is nonlocal/unavailable",
+  "compute_policy": "local CPU/local GTX 1050 only"
+}

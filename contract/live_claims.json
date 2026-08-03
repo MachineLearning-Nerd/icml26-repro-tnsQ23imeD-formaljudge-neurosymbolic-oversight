@@ -1,0 +1,17 @@
+{
+  "orid": "tnsQ23imeD",
+  "submission_number": 15212,
+  "title": "FormalJudge: A Neuro-Symbolic Paradigm for Agentic Oversight",
+  "area": "Social Aspects",
+  "subarea": "Safety",
+  "openreview": "https://openreview.net/forum?id=tnsQ23imeD",
+  "arxiv": "2602.11136",
+  "claims": [
+    {
+      "text": "Using Claude-4.5-Opus as the judge model, FormalJudge achieves 77.28% (+19.28 pts), 80.54% (+22.54 pts... wait",
+      "status": "unverified"
+    }
+  ],
+  "claim_count": 1,
+  "max_points": 2
+}

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "openreview_id": "tnsQ23imeD",
+  "phase": "claim_1_source_cpu_feasibility_audit_complete_inconclusive",
+  "next_action": "seek source-faithful local symbolic metric toy; literal Claude-4.5-Opus benchmark is unavailable/nonlocal",
+  "active_run_ids": [],
+  "completed_milestones": [
+    "live_duplicate_gate",
+    "live_contract_saved",
+    "source_archive_and_pdf_pinned",
+    "claim_1_source_cpu_feasibility_audit"
+  ],
+  "failed_attempts": [],
+  "claim_attempt_counts": {
+    "1": 1
+  },
+  "last_checkpoint": "2026-08-03T18:32:02.106910+00:00",
+  "last_known_git_commit": null,
+  "publication_allowed": false,
+  "compute_policy": "local CPU/local GTX 1050 only; no HF cpu-upgrade, Jobs, paid, or remote compute",
+  "claim_1_outcome": {
+    "verdict": "inconclusive",
+    "scope": "Literal claim requires Claude-4.5-Opus judge and benchmark evaluations; unavailable under local-only policy. No benchmark result was fabricated.",
+    "evidence": [
+      "outputs/claim1_source_audit/summary.json",
+      "evidence/source/SHA256SUMS"
+    ]
+  }
+}
